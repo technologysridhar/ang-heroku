@@ -2,14 +2,13 @@
   "name": "pyxis-test",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng",
-     
+    "ng": "ng", 
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e", 
   "start": "node server.js",
-  "postinstall": "ng build --aot -prod"
+  "postinstall": "ng build"
  
   },
   "private": true,
